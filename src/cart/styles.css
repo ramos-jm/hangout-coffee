@@ -462,15 +462,20 @@ textarea {
 }
 
 /* Footer */
-footer {
+.bottom-bar{
+    background: #081a48;
     text-align: center;
-    padding: 15px;
-    background-color: #081A48;
-    color: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+    padding: 15px 0;   
+  }
+  
+  .bottom-bar p {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300px;
+    padding: 2px;
+  }
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {

@@ -223,6 +223,21 @@ button:hover {
   }
 }
 
+.bottom-bar{
+  background: #081a48;
+  text-align: center;
+  padding: 15px 0;   
+}
+
+.bottom-bar p {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300px;
+  padding: 2px;
+}
+
 ::-webkit-scrollbar {
   width: 12px; /* Width of the scrollbar */
 }
